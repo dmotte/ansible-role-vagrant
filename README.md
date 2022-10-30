@@ -5,6 +5,8 @@
 
 Ansible role to install **Vagrant** on Debian/Ubuntu hosts.
 
+The installation steps were taken from: https://developer.hashicorp.com/vagrant/downloads.
+
 ## Usage
 
 1. Install this role using the `ansible-galaxy` CLI tool

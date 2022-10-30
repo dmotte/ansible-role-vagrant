@@ -1,0 +1,16 @@
+---
+- name: Add HashiCorp APT key
+  ansible.builtin.apt_key:
+    id: E8A032E094D8EB4EA189D270DA418C88A3219F7B
+    url: https://apt.releases.hashicorp.com/gpg
+
+- name: Add HashiCorp APT repo
+  ansible.builtin.apt_repository:
+    repo: >
+      deb https://apt.releases.hashicorp.com
+      {{ ansible_distribution_release }} main
+    update_cache: true
+
+- name: Install Vagrant from APT package
+  ansible.builtin.package:
+    name: vagrant

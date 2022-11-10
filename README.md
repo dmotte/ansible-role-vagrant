@@ -14,7 +14,7 @@ The installation steps were taken from: https://developer.hashicorp.com/vagrant/
 
    ```yaml
    - name: Include the dmotte.vagrant role
-     include_role: { name: dmotte.vagrant }
+     ansible.builtin.include_role: { name: dmotte.vagrant }
      vars: { ansible_become: yes }
    ```
 

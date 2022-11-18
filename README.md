@@ -13,7 +13,7 @@ The installation steps were taken from: https://developer.hashicorp.com/vagrant/
 2. You can then include it into the `tasks` section of your _Ansible Playbook_ like this:
 
    ```yaml
-   - name: Include the dmotte.vagrant role
+   - name: Install Vagrant
      ansible.builtin.include_role: { name: dmotte.vagrant }
      vars: { ansible_become: true }
    ```

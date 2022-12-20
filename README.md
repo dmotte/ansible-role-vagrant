@@ -1,6 +1,6 @@
 # ansible-role-vagrant
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dmotte/ansible-role-vagrant/release?logo=github&style=flat-square)](https://github.com/dmotte/ansible-role-vagrant/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dmotte/ansible-role-vagrant/release.yml?branch=main&logo=github&style=flat-square)](https://github.com/dmotte/ansible-role-vagrant/actions)
 [![Ansible Galaxy](https://img.shields.io/badge/galaxy-dmotte.vagrant-blueviolet?logo=ansible&style=flat-square)](https://galaxy.ansible.com/dmotte/vagrant)
 
 Ansible role to install **Vagrant** on Debian/Ubuntu hosts.

@@ -14,6 +14,10 @@ The installation steps were taken from: https://developer.hashicorp.com/vagrant/
 
 > **Note**: this role must be run as root (`ansible_become: true`).
 
+### Role variables
+
+_(none)_
+
 ## Development
 
 If you want to contribute to this project, you can use the [`test/playbook.yml`](test/playbook.yml) file to test the role while editing it.

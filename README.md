@@ -3,6 +3,12 @@
 [![GitHub latest release](https://img.shields.io/github/v/release/dmotte/ansible-role-vagrant?logo=github&style=flat-square)](https://github.com/dmotte/ansible-role-vagrant/actions)
 [![Ansible Galaxy](https://img.shields.io/badge/galaxy-dmotte.vagrant-blueviolet?logo=ansible&style=flat-square)](https://galaxy.ansible.com/dmotte/vagrant)
 
+## :warning: Warning: this project is **no longer maintained** :warning:
+
+I decided to convert the Ansible code [to Bash](https://github.com/dmotte/misc/tree/main/scripts) for simplicity.
+
+---
+
 Ansible role to install **Vagrant** on Debian/Ubuntu hosts.
 
 The installation steps were taken from: https://developer.hashicorp.com/vagrant/downloads.
